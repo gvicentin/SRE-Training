@@ -1,11 +1,13 @@
-# Site Reliability Engineering (SRE) - Training (PT-BR) :floppy_disk::pencil:
+# Site Reliability Engineering (SRE) - Training (PT-BR) :floppy_disk:
 
 ![Gif of Dog](https://media.giphy.com/media/SRx5tBBrTQOBi/giphy.gif)
 
 Meus **resumos** e **referências** para materiais online relacionados ao aprendizado do básico para a formação de um profissional de SRE.
 
+## Sobre SRE?
+
 > "Site reliability engineering (SRE) is a software engineering approach to IT operations. SRE teams use software as a tool to manage systems, solve problems, and automate operations tasks." - 
-> [RedHat DevOps](https://www.redhat.com/en/topics/devops/what-is-sre)
+> RedHat -[Saiba mais](https://www.redhat.com/en/topics/devops/what-is-sre)
 
 
 ## Índice
