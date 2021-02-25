@@ -1,8 +1,8 @@
-# Site Reliability Engineering (SRE) - Training (PT-BR) :floppy_disk:
+# Site Reliability Engineering (SRE) - Training (PT-BR) :floppy_disk::pencil:
 
 ![Gif of Dog](https://media.giphy.com/media/SRx5tBBrTQOBi/giphy.gif)
 
-Meus **resumos** e **referências** para materiais online relacionados ao aprendizado do básico para a formação de um profissional de SRE.
+Conjunto de **resumos** e **referências** para materiais online relacionados ao aprendizado do básico para a formação de um profissional de SRE.
 
 ## Sobre SRE?
 
@@ -14,7 +14,7 @@ Meus **resumos** e **referências** para materiais online relacionados ao aprend
 
 1. **Fundation**
     * [Git](Foundation/Git.md)
-    * SCM and Branching Strategy
+    * [SCM and Branching Strategy](Foundation/Branching-Strategy.md)
     * Linux basics
     * HTTP basics and REST
     * Shell script
