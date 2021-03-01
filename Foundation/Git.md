@@ -96,6 +96,40 @@ git push origin main
 Os conflitos acontecem quando dois desenvolvedores alteram o mesmo trecho de código ao mesmo tempo. Quando o segundo desenvolvedor for executar um `push` receberá um erro pois aquele conteúdo que ele está alterando também foi modificado pelo primeiro dev. Esse segundo deve então realizar um `pull` para trazer o conteúdo do repositório remoto, corrigir o conflito e em seguida realizar um `commit` e `push`. O conflito pode ser resolvido mantendo o trecho de código que deverá permancer nos arquivos conflitantes e removendo os trechos que não deverão permanecer (os marcadores criados automaticamente pelo git também precisam ser removidos).
 
 
+## Trabalhando em Equipe
+
+### Branches
+*Branches*, ou "ramos", são utilizados para isolar o desenvolvimento de funcionalidades. Assim mudanças podem ser feitas paralelamente sem que influenciem o funcionamento das outras partes. As *branches* são como sub-diretórios virtuais controlados pelo git.
+```bash
+# lista as branches e mostra a atual
+git branch
+
+# cria uma nova branch. Opção -d para excluir uma branch existente.
+git branch [nome-branch]
+
+# Mudar de branch
+git checkout [nome-branch]
+
+# Juntar uma brach com a atual
+git merge [nome-branch]
+```
+
+### Branches remotos
+
+Podemos trabalhar com *branches* em um repositório remoto.
+
+Para criar uma branch em um repositório remoto podemos executar o seguinte comando:
+```bash
+# -u indica que vamos querer sincronizar com o repositório local através de um pull.
+# origin representa o repositório remoto
+git push -u origin [nome-branch]
+```
+
+### Pull Requests
+
+Um pull request é uma solicitação para que um outro desenvolvedor revise e, se for o caso, realize o merge de um branch que você criou com a branch principal. Deve ser feito na interface do GitHub, Bitbucket ou outro gerenciador de repositórios remotos.
+
+
 ## Materiais complementares
 
 [Understanding Git (part 1) — Explain it Like I’m Five](https://hackernoon.com/understanding-git-fcffd87c15a3)
