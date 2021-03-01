@@ -15,7 +15,7 @@ Conjunto de **resumos** e **referências** para materiais online relacionados ao
 1. **Fundation**
     * [Git](Foundation/Git.md)
     * [SCM and Branching Strategy](Foundation/Branching-Strategy.md)
-    * Linux basics
+    * [Linux basics](Foundation/Linux-Basics.md)
     * HTTP basics and REST
     * Shell script
     * Containers
