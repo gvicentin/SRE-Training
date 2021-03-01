@@ -84,9 +84,10 @@ git commit -m "Adicionando um readme ao projeto"
 ### Push & Pull
 
 O comando `push` permite enviar os commits de um repositório local para um repositório remoto. Enquanto o `pull` faz o processo reverso, ele atualiza seu repo local a partir do repo remoto.
-```
+```bash
+# remote -> local
 git pull
-# --
+# local -> remote
 git push origin main
 ```
 
