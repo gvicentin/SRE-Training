@@ -53,8 +53,7 @@ Ao configurar a chave SSH, você cria um par de chaves que contém uma **chave p
 
 **Material de referência:**: [Apêndice sobre Git - Eng. de Software Moderna (Livro Digital)](https://engsoftmoderna.info/capAp.html)
 
-1. *Este é um resumo do conteúdo apresentado no material de referência, recomendo a leitura do artigo completo e esse guia como referência rápida nos tópicos principais.*
-2. *Os conteúdos sobre branches estão em um resumo separado e pode ser encotrado em: [SCM and Branching Strategy](Branching-Strategy.md).*
+*Este é um resumo do conteúdo apresentado no material de referência, recomendo a leitura do artigo completo e esse guia como referência rápida nos tópicos principais.*
 
 ### Começando
 
