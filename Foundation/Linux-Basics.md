@@ -25,9 +25,54 @@ O `man` é manual dos sistemas linux onde é possível encontrar todas as inform
 
 ### Redirecionamento
 
+Usamos comandos de redirecionamento para usar a saída de um programa em outro.
+
+```bash
+# <
+# Para usar o conteũdo de um arquivo como entrada.
+./prog1 < file.in
+
+# >
+# Usado para jogar a saída de um programa em um arquivo ao invés do stdout.
+./prog2 > file.out
+
+# >>
+# Adiciona o conteũdo de saída no fim do arquivo.
+echo "Appending..." >> file.out
+
+# |
+# Comando Pipe, usa a saída de um programa como entrada de outro
+ps -e | grep chorme
+```
+
 ### Caracteres coringas
 
+Os caracteres coringas são utilizados para selecionar arquivos por apenas parte do nome.
+
+```bash
+# *
+# Substitui um ou mais caracteres.
+# Listando os arquivos que começam com doc.
+ls doc* 
+
+# ?
+# Substitui um único caracter.
+# Impoimindo os arquivos que começem com file e tenham dois caracteres em seguida.
+cat file??
+
+# {text1, text2, ... text3}
+# Substitui por cada valor do conjunto.
+# Rodando programa com test_a, test_b, test_c
+./prog < test_{a, b, c}
+```
+
 ### Compactando/Descompactando
+
+No linux a principal forma de agrupar multiplos arquivos é através do formato `tar`, Esse formato é apenas um agrupamento de arquivos e utilizamos ele em conjuntos com outros algoritmos de compactação como o `gzip`.
+
+* **zip** - Junta e compacta arquivos.
+* **unzip** - Lista arquivos dentro de .zip e permite extraílos.
+* **tar** - 
 
 ### Visualização de arquivos
 
