@@ -8,7 +8,15 @@
 
 ## Git Flow
 
-![Git Flow](https://www.nicepng.com/png/detail/321-3210678_release-branches-git-flow.png)
+![Git Flow](https://miro.medium.com/max/700/1*9yJY7fyscWFUVRqnx0BM6A.png)
+
+O GitFlow é uma *Branching Strategy* que facilita a resolução de conflitos, o trabalho coletivo e que bugs repetidos não ocorram. Aprensenta grandes vantagens quando há times grandes trabalhando.
+
+*Branches*
+* **Master** - Representa o código que está rodando em produção. Apartir dessa *branch* geramos as tags (marcação de pontos importantes no desenvolvimento).
+* **Develop** - A *branch* de desenvolvimento dá origem as *branchs* de features, onde serão implementadas as funcionalidades.
+* **Realease** - Quando a *branch* de desenvolvimento tiver as *features* completas, criamos uma *branch* de *release*, começando assim o processo de lançamento de uma nova versão. Aqui são corrigidos os bugs relacionados apenas a própria **release**. E depois de corrigidos os bugs devemos enviar as alterações para a **master** e para a **develop**.
+* **Hotfix** - Quando surgir um bug já em produção, uma *branch* de **hotfix** é criada e em seguida reenviada para a **master** e **develop**, assim todas as *features* se aproveitarão dessa correção.
 
 
 ## Trunk based development 
