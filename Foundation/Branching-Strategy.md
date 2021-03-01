@@ -21,6 +21,8 @@ O GitFlow é uma *Branching Strategy* que facilita a resolução de conflitos, o
 
 ## Trunk based development 
 
+Ao contrário do GitFlow, no Trunk Development, as alterações do código são feitas direto na *master*, ou em *feature branchs* com duração curta. Ao utilizar esse processo não significa que muitos error entrarão em produção, na verdade existem uma série de vantagens ao se utilizar essa *branching strategy*. Os benefícios de se usar essa estrátegia são adquiridos de forma indireta, pois para chegar em um desenvolvimento trunk based é preciso que o time saiba como trabalhar com o código sem quebrá-lo, como escrever bons testes e como trabalhar coletivamente de forma efetiva.
+
 
 ## Materias complementares
 
