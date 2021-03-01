@@ -14,14 +14,14 @@ O GitFlow é uma *Branching Strategy* que facilita a resolução de conflitos, o
 
 *Branches*
 * **Master** - Representa o código que está rodando em produção. Apartir dessa *branch* geramos as tags (marcação de pontos importantes no desenvolvimento).
-* **Develop** - A *branch* de desenvolvimento dá origem as *branchs* de features, onde serão implementadas as funcionalidades.
+* **Develop** - A *branch* de desenvolvimento dá origem as *branches* de features, onde serão implementadas as funcionalidades.
 * **Realease** - Quando a *branch* de desenvolvimento tiver as *features* completas, criamos uma *branch* de *release*, começando assim o processo de lançamento de uma nova versão. Aqui são corrigidos os bugs relacionados apenas a própria **release**. E depois de corrigidos os bugs devemos enviar as alterações para a **master** e para a **develop**.
 * **Hotfix** - Quando surgir um bug já em produção, uma *branch* de **hotfix** é criada e em seguida reenviada para a **master** e **develop**, assim todas as *features* se aproveitarão dessa correção.
 
 
 ## Trunk based development 
 
-Ao contrário do GitFlow, no Trunk Development, as alterações do código são feitas direto na *master*, ou em *feature branchs* com duração curta. Ao utilizar esse processo não significa que muitos error entrarão em produção, na verdade existem uma série de vantagens ao se utilizar essa *branching strategy*. Os benefícios de se usar essa estrátegia são adquiridos de forma indireta, pois para chegar em um desenvolvimento trunk based é preciso que o time saiba como trabalhar com o código sem quebrá-lo, como escrever bons testes e como trabalhar coletivamente de forma efetiva.
+Ao contrário do GitFlow, no Trunk Development, as alterações do código são feitas direto na *master*, ou em *feature branches* com duração curta. Ao utilizar esse processo não significa que muitos error entrarão em produção, na verdade existem uma série de vantagens ao se utilizar essa *branching strategy*. Os benefícios de se usar essa estrátegia são adquiridos de forma indireta, pois para chegar em um desenvolvimento trunk based é preciso que o time saiba como trabalhar com o código sem quebrá-lo, como escrever bons testes e como trabalhar coletivamente de forma efetiva.
 
 
 ## Materias complementares
