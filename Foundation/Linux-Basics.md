@@ -29,7 +29,7 @@ Usamos comandos de redirecionamento para usar a saída de um programa em outro.
 
 ```bash
 # <
-# Para usar o conteũdo de um arquivo como entrada.
+# Para usar o conteúdo de um arquivo como entrada.
 ./prog1 < file.in
 
 # >
@@ -37,11 +37,11 @@ Usamos comandos de redirecionamento para usar a saída de um programa em outro.
 ./prog2 > file.out
 
 # >>
-# Adiciona o conteũdo de saída no fim do arquivo.
+# Adiciona o conteúdo de saída no fim do arquivo.
 echo "Appending..." >> file.out
 
 # |
-# Comando Pipe, usa a saída de um programa como entrada de outro
+# Comando Pipe, usa a saída de um programa como entrada de outro.
 ps -e | grep chorme
 ```
 
@@ -76,7 +76,46 @@ No linux a principal forma de agrupar multiplos arquivos é através do formato 
 
 ### Visualização de arquivos
 
+Além do comando `cat` podemos visualizar o conteúdo dos arquivos diretamente do terminal com os seguintes comandos:
+```bash
+# Mostra o começo do arquivo, é possível especificar o número de linhhas.
+head file.txt
 
+# O mesmo que 'head' para o fim do arquivo.
+tail file.txt
+
+# Programa para visualizar arquivos maiores e poder navegar dentro dele.
+less file.txt
+```
+
+## Processos
+
+Um processo é uma instância de um programa que está executando.
+```bash
+# Listar os processos
+ps
+top
+pstree
+
+# Terminar processos
+kill
+killall
+```
+
+### Jobs
+
+Um **job** é um processo inicializado a partir daquele terminal.
+```bash
+# Listar os jobs
+jobs
+
+# Colocar um job em backgorund / foreground
+bg [job]
+fg [job]
+
+# Para inicializar um job em background usamos o &
+./program &
+```
 
 
 ## Material Complementar
