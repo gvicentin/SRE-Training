@@ -88,19 +88,27 @@ tail file.txt
 less file.txt
 ```
 
+### Usando o grep
+
+O `grep` é um programa bastante útil que permite selecionar as linhas a partir de um padrão especificado.
+```bash
+# Imprime processo que termina com chrome
+ps -ef | grep 'chrome$'
+```
+
+
 ## Processos
 
 Um processo é uma instância de um programa que está executando.
-```bash
-# Listar os processos
-ps
-top
-pstree
 
-# Terminar processos
-kill
-killall
-```
+**Listando os processos:**
+* **ps** - Snapshot dos processos atuais.
+* **top** - Mostra os processos em tempo real.
+* **pstree** - Lista em forma de árvore.
+
+**Terminando os processos:**
+* **kill** - Envia um sinal a um processo.
+* **killall** - Mata os processos por nome.
 
 ### Jobs
 
@@ -115,6 +123,26 @@ fg [job]
 
 # Para inicializar um job em background usamos o &
 ./program &
+```
+
+## Permissões
+
+As permições adicionam proteção ao acesso e edição dos arquivos. Cada tipo de usuário, **owner** (dono do arquivo), **group**(groupo do dono) e **others** (outros usuários) terá sua própria permissão em relação a cada arquivo. As permissões podem ser de **read** (r - leitura), **write** (w - escrita) e **execute** (x - execução).
+
+![Linux file permissions](https://assets.digitalocean.com/articles/linux_basics/ls-l.png)
+
+O comando `chmod` é usado para alterar as permissões dos arquivos.
+
+
+## Variáveis de ambientes
+
+As variáveis de ambiente são variáveis globais usadas para configurações. Provavelmente a mais conhecida delas é a `PATH` que contem os caminhas onde se encontram os executáveis. Temos também por exemplo a `HOME` que mostra o caminho para o diretório do usuário (`~`).
+```bash
+# Listando
+env
+
+# Imprimindo conteúdo de uma variável específica
+echo $PATH
 ```
 
 
