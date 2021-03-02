@@ -4,7 +4,7 @@
 
 ## Man Pages
 
-O `man` é manual dos sistemas linux onde é possível encontrar todas as informações necessárias para a utilização dos programas, funções ou utilitários. Para usar o comando basta passar a página de interesse, por exemplo `man cd` para mostrar o manual do comando `cd - change directory`. **Este é comando mais importante para iniciantes!!**
+O `man` é o manual dos sistemas linux onde é possível encontrar todas as informações necessárias para a utilização dos programas, funções ou utilitários. Para usar o comando basta passar a página de interesse, por exemplo `man cd` para mostrar o manual do comando `cd - change directory`. **Este é comando mais importante para iniciantes!!**
 
 
 ## Trabalhando com arquivos e diretórios
@@ -72,9 +72,11 @@ No linux a principal forma de agrupar multiplos arquivos é através do formato 
 
 * **zip** - Junta e compacta arquivos.
 * **unzip** - Lista arquivos dentro de .zip e permite extraílos.
-* **tar** - 
+* **tar** - Faz o arquivamento de arquivos em um único. Também pode trabalhar com compressões.
 
 ### Visualização de arquivos
+
+
 
 
 ## Material Complementar
