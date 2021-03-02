@@ -91,6 +91,10 @@ less file.txt
 ### Usando o grep
 
 O `grep` é um programa bastante útil que permite selecionar as linhas a partir de um padrão especificado.
+* ^ -> Procura por padrão no começo da linha. Ex: `^hello_`.
+* $ -> Procura por padrão no fim da linha. Ex: .`jpg$`.
+* -E ->  Para usar regexp na busca.
+
 ```bash
 # Imprime processo que termina com chrome
 ps -ef | grep 'chrome$'

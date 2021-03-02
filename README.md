@@ -16,7 +16,7 @@ Conjunto de **resumos** e **referências** para materiais online relacionados ao
     * [Git](Foundation/Git.md)
     * [SCM and Branching Strategy](Foundation/Branching-Strategy.md)
     * [Linux basics](Foundation/Linux-Basics.md)
-    * HTTP basics and REST
+    * [HTTP Basics and REST](Foundation/HTTP-and-REST.md)
     * Shell script
     * Containers
 2. **Continous Integration and Continous Delivery (CI/CD)**
