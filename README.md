@@ -17,8 +17,8 @@ Conjunto de **resumos** e **referências** para materiais online relacionados ao
     * [SCM and Branching Strategy](Foundation/Branching-Strategy.md)
     * [Linux basics](Foundation/Linux-Basics.md)
     * [HTTP Basics and REST](Foundation/HTTP-and-REST.md)
-    * Shell script
-    * Containers
+    * [Shell script](Foundation/ShellScript.md)
+    * [Containers](Foundation/Docker.md)
 2. **Continous Integration and Continous Delivery (CI/CD)**
 3. **Cloud basic**
 4. **Kubernetes**
